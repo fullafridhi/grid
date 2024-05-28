@@ -1,0 +1,125 @@
+*{
+    margin: 2px;
+    box-sizing: border-box;
+
+  
+}
+header{
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 238, 218);
+    margin-bottom: 50px;
+ 
+}
+
+nav ul li{ 
+    display: inline-flex;
+   justify-content: space-between;
+    
+  
+   
+}
+
+
+a{
+    color: darkolivegreen;
+    text-decoration-line: none ;
+    padding: 5px;
+    
+  
+   
+  
+   
+}
+ .hero{
+    display: flex;
+    justify-content: center;
+    background-image:url(./mutabal.jpg);
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-left: 55px;
+    margin-right: 55px;
+    
+}
+
+.discription{
+   
+    flex-direction: column;
+    justify-content:center ;
+}
+
+ 
+h1{
+    
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-size: 60px;
+    letter-spacing: 10px;
+  margin-right: 350px;
+}
+
+ .btn{
+    margin-left: 120px;
+    background-color: chartreuse !important;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 40px;
+
+}
+hr{
+    
+    
+    border-style: inset;
+   
+}
+ 
+.container{ 
+    display: grid;
+    grid-template-columns: 30%  30% 30%;
+    column-gap:5px ;
+    margin-left: 10%;
+    
+  
+}
+.food1{
+    width: 320px;
+    height:250px ;
+    border-style: outset;
+    border-color: rgb(231, 231, 31);
+    margin-bottom: 155px;
+}
+
+ .food2{
+    width: 320px;
+    height: 250px;
+    border-style: outset;
+    border-color: rgb(231, 231, 31);
+    margin-bottom: 155px;
+
+}
+ .food3{
+    width: 320px;
+    height: 250px;
+    border-style: outset;
+    border-color: rgb(231, 231, 31);
+    margin-bottom: 155px;
+ }
+P{
+    font-style: italic;
+   
+}
+h4{
+
+    color: red;
+}
+.about{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    column-gap: 10px;
+
+}
